@@ -1,0 +1,74 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+}
+
+/* Colors */
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Layout */
+@media (min-width: 320px) {
+  /* Styles for smaller screens */
+}
+
+@media (min-width: 375px) {
+  /* Styles for mobile */
+}
+
+@media (min-width: 1440px) {
+  /* Styles for desktop */
+}
+
+/* Additional Styles */
+a {
+  text-decoration: none;
+  color: var(--dark-cyan);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Add more styles as needed */

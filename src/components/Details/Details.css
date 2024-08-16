@@ -1,0 +1,99 @@
+#DetailsDiv {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#PriceDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  border-radius: 0 10px 10px 0;
+}
+#Header {
+  margin: 0;
+  font-size: 32px;
+  line-height: 30px;
+}
+#des {
+  margin: 0;
+  color: rgb(59, 59, 59);
+}
+#btn {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(64, 129, 64);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+#btn:hover {
+  background-color: rgb(35, 72, 35);
+}
+#PriceLabel {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(64, 129, 64);
+  font-family: "Fraunces", sans-serif;
+}
+#DisPrice {
+  font-size: 12px;
+  color: gray;
+  font-weight: 500;
+}
+#tittle {
+  letter-spacing: 5px;
+  color: gray;
+}
+
+/* Layout */
+@media (max-width: 425px) {
+  /* Styles for smaller screens */
+  body {
+    height: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+  #MyImg {
+    display: none;
+  }
+  #MyImgPhone {
+    display: block;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+  }
+  #DetailsDiv {
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 375px) {
+  /* Styles for mobile */
+}
+
+@media (min-width: 1440px) {
+  /* Styles for desktop */
+}
